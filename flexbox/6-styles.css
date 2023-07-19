@@ -201,10 +201,6 @@
   
   /* Navbar
       ============================= */
-      
-  .nav  .nav-item + .nav-item {
-    margin: var(--nav-item-margin);
-  }
 
   .nav {
     display: flex;
@@ -247,6 +243,10 @@
   .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+  }
+
+  .nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
   }
   
   /* Header
